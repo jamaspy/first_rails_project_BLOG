@@ -14,3 +14,8 @@
  *= require_self
  */
  @import "bulma";
+ @import url('https://fonts.googleapis.com/css?family=Raleway:300');
+
+body{
+font-family: 'Raleway', sans-serif;
+}

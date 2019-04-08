@@ -13,9 +13,10 @@
  *= require_tree .
  *= require_self
  */
- @import "bulma";
- @import url('https://fonts.googleapis.com/css?family=Raleway:300');
 
+
+ @import url('https://fonts.googleapis.com/css?family=Raleway:300');
+@import "https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.css";
 body{
 font-family: 'Raleway', sans-serif;
 }
@@ -28,5 +29,5 @@ font-family: 'Raleway', sans-serif;
 
 h1{
   text-shadow: 1px 1px 1px black;
-  
+
 }
